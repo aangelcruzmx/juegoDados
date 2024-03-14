@@ -1,0 +1,54 @@
+Body {
+    Font-family: sans-serif;
+    Margin: 20px;
+}
+
+H1 {
+    Text-align: center;
+}
+
+.jugadores {
+    Display: flex;
+    Justify-content: space-around;
+    
+}
+
+.jugador {
+    Border: 1px solid #ccc;
+    Padding: 20px;
+    Width: 300px;
+}
+
+Select {
+    Margin-bottom: 10px;
+}
+
+#lanzar {
+    Margin: 20px auto;
+    Padding: 10px 20px;
+    Font-size: 16px;
+    Border: 1px solid #ccc;
+    Cursor: pointer;
+}
+
+.marcador {
+    Margin-top: 20px;
+    Text-align: center;
+}
+
+#ganador {
+    Margin-top: 20px;
+    Text-align: center;
+    Font-size: 18px;
+}
+
+.dados {
+  Display: flex;
+  Flex-wrap: wrap;
+}
+
+.dado {
+  Width: 30px;
+  Height: 30px;
+  Margin: 5px;
+}
